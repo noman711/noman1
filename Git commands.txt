@@ -8,3 +8,10 @@ git add index.html
 git status 
 git commit index.html(i,enter,esc,:,wq)
 git commit
+ls -lart (it will show all the hidden folders)
+touch index.html (it will create automatically new file where you open the git bash)
+git add -A(It will add all the file which are in the folder where u start git bashe)
+clear (clear all the data from the terminal)
+git commit -m "Add more htmls"(it will add this message("added more htmls") to all files)
+git checkout any file name (it will bring your older version of your work(it will work on the one file))
+git checkout -f(it will bring your older version of your work (it will work on all files))

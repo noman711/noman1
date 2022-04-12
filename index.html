@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+            grid-auto-flow: column;
+        }
+        .row1{
+            width: 300px;
+            background-color: aqua;
+        }
+        .row2{
+            display: flex;
+            background-color: blue;
+            flex-wrap: wrap;
+        }
+        .row3{
+            width: 300px;
+            background-color: tomato;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 1px solid white;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="grid">
+        <div class="row1">fgfg</div>
+        <div class="row2">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row3">dfgdf</div>
+    </div>
 </body>
 </html>
