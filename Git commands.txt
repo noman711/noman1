@@ -1,0 +1,10 @@
+Git commands
+git config --global user.name khalid
+git config --global user.email abc@gmail.com
+git config --global user.password 123
+git --version
+(TO create empty repository)------> {git init}
+git add index.html
+git status 
+git commit index.html(i,enter,esc,:,wq)
+git commit
